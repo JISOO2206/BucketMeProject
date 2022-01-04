@@ -10,7 +10,7 @@
 }
 .payInfoContainer{
     text-align: left;
-    max-width: 460px;
+    max-width: 445px;
     margin: 0 auto;
 }
 .payFormInfo{
@@ -51,26 +51,20 @@
 }
 
 .membershipInfoPrice{
-    height: 16px;
-    width: 152px;
-    padding-top: 10px;
     font-weight: 700;
-    line-height: 16px;
+    font-size: 16px;
 }
 
 .membershipInfoName{
-    height: 16px;
-    width: 152px;
-    padding-top: 5px;
+    font-size: 16px;
     font-weight: 400;
     color: #737373;
-    line-height: 16px;
 }
 
 .membershipContent{
     margin-top: 10px;
     height: 72px;
-    width: 445px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,8 +75,11 @@
 }
 
 .membershipContentMod{
+    margin-top: 9px;
+    height: 72px;
+    width: 60px;
     font-size: 16px;
-    text-align: right;
+    text-align: left;
     font-weight: 700;
     color: #0071eb;
     cursor: pointer;
@@ -128,20 +125,59 @@
     background-color: royalblue;
 }
 
+.membershipContainer{
+    display: flex;
+    align-items: center;
+}
+
 footer{
-    text-decoration: none solid rgb(117,117,117);
     background-color: #F3F3F3;
-    color: #757575;
-    height: 344px;
-    padding: 0 0 20px 0;
+    padding: 70px 388px 36px 388px;
+    height: 500px;
     min-height: auto;
     min-width: 190px;
-    position: relative;
 }
 
 .siteFooter{
-    height: 293px;
-    width: 1273px;
-    margin: 0 71px;
-    padding: 30px 0 0 0;
+    height: 430px;
+    padding: 0 0 20px 0;
+    min-width: 190px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.icons{
+    display: flex;
+    justify-content: flex-start;
+}
+.iconsRow{
+    margin-right: 20px;
+}
+
+.linkList{
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+}
+.linkList a {
+    text-decoration: none solid rgb(51, 51, 51);
+}
+
+.linkList a:hover {text-decoration: underline;}
+
+.link {
+    font-size: 13px;
+    text-align: left;
+    vertical-align: top;
+    height: 17px;
+    width: 225px;
+    margin: 0 0 16px 0;
+    padding: 0 12px 0 0;
+    min-width: 100px;
+    display: inline-block;
+    list-style-type: none;
+    list-style-position: outside;
+    box-sizing: border-box;
 }
