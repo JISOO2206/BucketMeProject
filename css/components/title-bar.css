@@ -1,20 +1,34 @@
 
-.logo {
-    line-height: 90px;
-    text-decoration: none solid rgb(0, 113, 235);
-    vertical-align: middle;
-    word-spacing: 0px;
-    background-color: #FFFFFF;
-    height: 90px;
-    width: 167px;
-    margin: 0 0 0 57px;
-    display: inline-block;
-    cursor: pointer;
-    transform: none;
-    transition: all 0.25s ease 0s;
-    outline: rgb(51, 51, 51) dashed 0px;
-    color: black;
+
+.title-bar{
+    background-color: #041c32;
+    height: 70px;
+    border-bottom: 1px solid #E6E6E6;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    min-width: auto;
+    min-height: auto;
 }
+
+.title-bar__column{
+    display: flex;
+    align-items: center;    /*main 축에서 중앙으로오게 해줌*/
+}
+
+.title-bar__column:first-child{
+    margin-left: 10px;
+}
+
+.title-bar__column:last-child{
+    margin-right: 10px;
+}
+
+.logo img {
+    width: 135px;
+    height: 45px;
+}
+
 .login-status:hover {text-decoration: underline;}
 
 .login-status{
@@ -23,7 +37,6 @@
     line-height: 90px;
     text-decoration: none solid rgb(51, 51, 51);
     word-spacing: 0px;
-    background-color: #FFFFFF;
     height: 90px;
     width: 76px;
     margin: 0 57px 0 57px;
@@ -33,13 +46,18 @@
     transform: none;
     transition: all 0.25s ease 0s;
     outline: rgb(51, 51, 51) dashed 0px;
-    color: black;
+    color: #FFFFFF;
 }
 
-.title-bar{
-    height: 90px;
-    border-bottom: 1px solid #E6E6E6;
-    min-width: auto;
-    min-height: auto;
-    position: relative;
+.userProfileImage{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.adminTitleIcon{
+    color: #FFFFFF;
+    display: inline-block;
+    margin: 0px 7px;
 }
