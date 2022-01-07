@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>buketMe 관리자 창</title>
+</head>
+<body>
+    <div class="title-bar">
+        <div class="title-bar__column">
+            <a class="logo" href="#"><img src="img/Logo.png"></a>
+        </div>
+        <div class="title-bar__column">
+            <div class="searchBox">
+                <input class="searchText" type="text" placeholder="search">
+                <a class="searchBtn" href="#">
+                <span class="userTitleIcon color">
+                    <i class="fas fa-search fa-lg">
+                    </i>
+                </span>
+                </a>
+            </div>
+            <span class="userTitleIcon"><img src="img/man.png" class="userProfileImage"></span>
+            <span class="userTitleIcon"><i class="fas fa-caret-down fa-lg"></i></span>
+        </div>
+    </div>
+    <div class="mainBox">
+        <div class="sideBox">
+            <div class="toDoList"></div>
+            <div class="navigationBar">
+                <ul class="navMenu">
+                    <li class="Menu"><a>대시 보드</a></li>
+                    <li class="Menu"><a>콘텐츠 관리</a></li>
+                    <li class="Menu">
+                        <a>
+                            <span class="notificationPoint"></span>
+                            Q&A
+                        </a>
+                    </li>
+                    <li class="Menu"><a>회원관리</a></li>
+                    <li class="Menu"><a>관리기록</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mainBax">
+            <div class="contentsUpLoadSpace">
+                <div class="contentsUpLoadBox">
+                    <div class="contentsUpLoadBoxIcon">
+                        <i class="fas fa-film fa-9x"></i>
+                    </div>
+                    <input class="contentsUpLoadBoxBtn" type="button" value="콘텐츠 업로드 하기">
+                </div>
+            </div>
+            <div class="loginStatusBox"></div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <script
+            src="https://kit.fontawesome.com/6478f529f2.js"
+            crossorigin="anonymous">
+    </script>
+</body>
+</html>

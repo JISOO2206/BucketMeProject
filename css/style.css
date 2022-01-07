@@ -4,7 +4,7 @@
 @import "components/adminSideBox.css";
 /*screen*/
 @import "screen/payInfomationRegisterster.css";
-@import "screen/adminMain.css";
+@import "screen/adminDashBoard.css";
 
 body{
     margin: 0px;
