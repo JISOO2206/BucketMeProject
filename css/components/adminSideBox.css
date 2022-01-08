@@ -5,9 +5,11 @@
     margin-right: 0px;
 }
 
-.toDoList{
-    width: 240px;
+.toDoListBox{
+    width: 205px;
     height: 400px;
+    color: #FFFFFF;
+    padding: 10px 20px 10px 20px;
 }
 
 .navMenu{
@@ -29,6 +31,18 @@
     font-weight: bold;
 }
 
+.MenuLink{
+    text-decoration: none;
+}
+
+.MenuLink:link{
+    color:#FFFFFF ;
+}
+
+.MenuLink:visited{
+    color: #FFFFFF;
+}
+
 .notificationPoint{
     background-color: tomato;
     width: 5px;
@@ -37,6 +51,28 @@
     display: flex;
     position: absolute;
     left: 90px;
-    bottom: 290px;
+    bottom: 280px;
+}
+
+.completedList{
+    border-top: 1px solid #FFFFFF;
+    margin-right: 5px;
+}
+
+.plusList{
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.insertText{
+    background-color: transparent;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.insetToDoListBox{
+    margin-top: 5px;
 }
 
