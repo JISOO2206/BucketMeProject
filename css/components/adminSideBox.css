@@ -1,26 +1,26 @@
-.sideBox{
+.sideBox {
     width: 255px;
     height: 850px;
-    background-color: #041c32;
+    background-color: rgb(26, 29, 41);
     margin-right: 0px;
 }
 
-.toDoListBox{
+.toDoListBox {
     width: 205px;
     height: 400px;
-    color: #FFFFFF;
+    color: #ffffff;
     padding: 10px 20px 10px 20px;
 }
 
-.navMenu{
+.navMenu {
     margin-top: 0px;
     padding-top: 50px;
     height: 300px;
-    color: #FFFFFF;
+    color: #ffffff;
     list-style-type: none;
 }
 
-.Menu{
+.Menu {
     margin-bottom: 20px;
     font-size: 20px;
     font-weight: 500;
@@ -31,48 +31,50 @@
     font-weight: bold;
 }
 
-.MenuLink{
+.MenuLink {
     text-decoration: none;
 }
 
-.MenuLink:link{
-    color:#FFFFFF ;
+.MenuLink:link {
+    color: #ffffff;
 }
 
-.MenuLink:visited{
-    color: #FFFFFF;
+.MenuLink:visited {
+    color: #ffffff;
 }
 
-.notificationPoint{
-    background-color: tomato;
+.Menu:nth-child(3) > .MenuLink{
+    position: relative;
+}
+
+.notificationPoint {
     width: 5px;
     height: 5px;
     border-radius: 2.5px;
-    display: flex;
+    background-color: tomato;
     position: absolute;
-    left: 90px;
-    bottom: 280px;
+    top: 5px;
+    left: 48px;
 }
 
-.completedList{
-    border-top: 1px solid #FFFFFF;
+.completedList {
+    border-top: 1px solid #ffffff;
     margin-right: 5px;
 }
 
-.plusList{
+.plusList {
     background-color: transparent;
     border: none;
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 18px;
 }
 
-.insertText{
+.insertText {
     background-color: transparent;
-    border-bottom: 1px solid #FFFFFF;
-    color: #FFFFFF;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
 }
 
-.insetToDoListBox{
+.insetToDoListBox {
     margin-top: 5px;
 }
-

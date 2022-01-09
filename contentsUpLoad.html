@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>BuketMe 관리자 Contents UpLoad</title>
+</head>
+<body>
+<div class="title-bar">
+    <div class="title-bar__column">
+        <a class="logo" href="#"><img src="img/Logo.png"></a>
+    </div>
+    <div class="title-bar__column">
+        <div class="searchBox">
+            <input class="searchText" type="text" placeholder="search">
+            <a class="searchBtn" href="#">
+                <span class="userTitleIcon color">
+                    <i class="fas fa-search fa-lg">
+                    </i>
+                </span>
+            </a>
+        </div>
+        <span class="userTitleIcon"><img src="img/man.png" class="userProfileImage"></span>
+        <span class="userTitleIcon"><i class="fas fa-caret-down fa-lg" id="downIcon"></i></span>
+    </div>
+</div>
+<div class="mainBox">
+    <div class="sideBox">
+        <div class="toDoListBox">
+            <h3 class="toDoListTitle">TO DO LIST</h3>
+            <div id="todoList"></div>
+            <div id="completedList" class="completedList"></div>
+            <div class="insetToDoListBox">
+                <button type="button" id="plusList" class="plusList">+</button>
+                <input
+                        id="insertText"
+                        class="insertText"
+                        placeholder="toDoList"
+                />
+            </div>
+        </div>
+        <div class="navigationBar">
+            <ul class="navMenu">
+                <li class="Menu"><a class="MenuLink" href="#">대시 보드</a></li>
+                <li class="Menu"><a class="MenuLink" href="#">콘텐츠 관리</a></li>
+                <li class="Menu">
+                    <a class="MenuLink" href="#">
+                        <span class="notificationPoint"></span>
+                        Q&A
+                    </a>
+                </li>
+                <li class="Menu"><a class="MenuLink" href="#">회원관리</a></li>
+                <li class="Menu"><a class="MenuLink" href="#">관리기록</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="mainBoxInside">
+        <div class="contentsUpLoadPageSpace">
+            <form action="#">
+                <h2>콘텐츠 업로드</h2>
+                <div class="upLoadBox">
+                    <div>
+                        <i class="far fa-file-video fa-5x"></i>
+                    </div>
+                    <div>
+                        <input type="file" value="파일 선택" />
+                    </div>
+                </div>
+                <h2>콘텐츠 설명</h2>
+                <div class="contentsExplanation">
+                    <input type="text" placeholder="제목" />
+                    <input type="text" placeholder="상세설명" />
+                </div>
+                <h2>카테고리</h2>
+                <select>
+                    <option disabled selected>장르</option>
+                    <option>한국 드라마</option>
+                    <option>미국 시리즈</option>
+                    <option>영국 드라마</option>
+                    <option>아시아 드라마</option>
+                    <option>유럽 시리즈</option>
+                    <option>애니</option>
+                    <option>코미디</option>
+                    <option>로맨스</option>
+                    <option>액션&어드벤처</option>
+                    <option>스릴러</option>
+                    <option>스포츠</option>
+                    <option>SF&판타지</option>
+                    <option>호러</option>
+                    <option>범죄</option>
+                    <option>버라이어티/예능</option>
+                    <option>다큐시리즈</option>
+                    <option>키즈</option>
+                </select>
+                <select>
+                    <option disabled selected>취향</option>
+                </select>
+                <h2>콘텐츠 이미지</h2>
+                <div>
+                    <input type="file" value="파일 선택" />
+                </div>
+                <h2>연령 제한</h2>
+                <div><label><input type="radio" name="gender" id="restriction">콘텐츠 시청자를 만 18세 이상으로 제한</label></div>
+                <div>
+                    <label><input type="radio" name="gender" id="nonRestriction">콘텐츠 시청자를 만 18세 이상으로 제한하지 않음</label>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/toDoList.js"></script>
+<script
+        src="https://kit.fontawesome.com/6478f529f2.js"
+        crossorigin="anonymous">
+</script>
+</body>
+</html>

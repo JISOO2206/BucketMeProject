@@ -1,0 +1,28 @@
+.contentsUpLoadPageSpace{
+    padding-top: 40px;
+}
+
+.upLoadBox{
+    width: 450px;
+    height: 180px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.upLoadBox > div:last-child{
+    margin-top: 10px;
+}
+
+.contentsExplanation > input{
+    display: block;
+    width: 400px;
+    height: 40px;
+}
+
+.contentsExplanation > input:last-child{
+    margin-top: 10px;
+}

@@ -1,16 +1,8 @@
-.mainBox{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
-
 .contentsUpLoadSpace{
-    position: absolute;
+    margin-top: 40px;
     width: 450px;
     height: 560px;
-    background-color: #2B2E4A;
-    top: 60px;
-    left: 320px;
+    background-color: rgb(26, 29, 41);
 }
 
 .contentsUpLoadBox{
@@ -25,7 +17,7 @@
 }
 
 .contentsUpLoadBoxIcon{
-    color: #2B2E4A;
+    color: rgb(26, 29, 41);
     display: flex;
     justify-content: center;
 }
@@ -40,4 +32,50 @@
     font-weight: 700;
     background-color: #EDAE47;
     border: none;
+}
+
+.loginStatusBox{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 400px;
+    height: 500px;
+    border: 15px solid rgb(26, 29, 41);
+}
+
+.loginStatusBox > h2 {
+    margin-left: 10px;
+}
+
+.userComponent {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+
+.userComponent,
+.userComponentColumn:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.userComponentImage {
+    width: 65px;
+    height: 65px;
+    border-radius: 20px;
+    margin-right: 10px;
+    background-color: rgb(26, 29, 41);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.userComponentName {
+    margin-bottom: 2px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.userComponentStatus {
+    margin-top: 0px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
 }
