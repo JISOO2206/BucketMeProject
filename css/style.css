@@ -4,6 +4,7 @@
 @import "components/title-bar.css";
 @import "components/adminSideBox.css";
 @import "components/adminMainBox.css";
+@import "components/userSubProfileBox.css";
 
 /*screen*/
 @import "screen/payInfomationRegisterster.css";

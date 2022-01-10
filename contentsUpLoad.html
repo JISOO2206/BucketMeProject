@@ -22,7 +22,20 @@
             </a>
         </div>
         <span class="userTitleIcon"><img src="img/man.png" class="userProfileImage"></span>
-        <span class="userTitleIcon"><i class="fas fa-caret-down fa-lg" id="downIcon"></i></span>
+        <span class="userTitleIcon">
+            <div class="dropdown">
+                  <button class="dropbtn">
+                    <i class="fas fa-caret-down fa-lg" id="downIcon"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#"><img src="img/man.png" class="userProfileImageSub"> 홍길동</a>
+                    <a href="#">프로필 관리</a>
+                    <a href="#">마이페이지</a>
+                    <a href="#">고객센터</a>
+                    <a href="#">로그아웃</a>
+                  </div>
+                </div>
+        </span>
     </div>
 </div>
 <div class="mainBox">
@@ -72,8 +85,8 @@
                     <input type="text" placeholder="제목" />
                     <input type="text" placeholder="상세설명" />
                 </div>
-                <h2>카테고리</h2>
-                <select>
+                <h2>카테고리  & 공개날짜</h2>
+                <select class="contentCategory">
                     <option disabled selected>장르</option>
                     <option>한국 드라마</option>
                     <option>미국 시리즈</option>
@@ -96,6 +109,7 @@
                 <select>
                     <option disabled selected>취향</option>
                 </select>
+                <input type="datetime-local">
                 <h2>콘텐츠 이미지</h2>
                 <div>
                     <input type="file" value="파일 선택" />
@@ -104,6 +118,16 @@
                 <div><label><input type="radio" name="gender" id="restriction">콘텐츠 시청자를 만 18세 이상으로 제한</label></div>
                 <div>
                     <label><input type="radio" name="gender" id="nonRestriction">콘텐츠 시청자를 만 18세 이상으로 제한하지 않음</label>
+                </div>
+                <div class="contentsUpLoadPageBtn">
+                    <form action="#">
+                        <input type="submit" value="콘텐츠 업로드">
+                    </form>
+                </div>
+                <div class="contentsUpLoadPageBackBtn">
+                    <form action="adminDashBoard.html">
+                        <input type="submit" value="취소">
+                    </form>
                 </div>
             </form>
         </div>

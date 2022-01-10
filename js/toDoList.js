@@ -47,16 +47,13 @@ document.addEventListener('DOMContentLoaded', () => {
         insertText.value = '';   //글이 삽입되면 insertText 안에 입력된 내용 비우기
     }
 
+    const delList = () =>{
 
-    const removeList = () => {
-        const allCheckbox = document.getElementsByClassName('checkboxList');
-        for(let i=0; i<allCheckbox.length; i++) {
-            if(allCheckbox[i].checked) {
-                newList.removeChild(allCheckbox[i].parentNode.parentNode);
-                i--;
-            }
-        }
+
+
     }
+
+
 
     plusButton.addEventListener("click", addList);
     insertText.addEventListener("keyup", (event) => {
