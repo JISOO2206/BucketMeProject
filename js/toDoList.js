@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const completeList = document.querySelector("#completedList");
     const insertText = document.querySelector("#insertText");
     const plusButton = document.querySelector("#plusList");
-    const minusButton = document.querySelector("#minusList");
+   /* const minusButton = document.querySelector("#minusList");*/
     let countNum =0;
 
     const addList = () => {
@@ -20,11 +20,18 @@ document.addEventListener('DOMContentLoaded', () => {
         const listContainer = document.createElement("div");
         const inputText = document.createElement("span");
         const checkbox= document.createElement("input");
+        const minusButton = document.createElement("button");
 
         listContainer.appendChild(checkbox);
         listContainer.appendChild(inputText);
+        listContainer.appendChild(minusButton);
+        minusButton.innerText = "X";
+        minusButton.style.backgroundColor = "rgb(26, 29, 41)";
+        minusButton.style.color="tomato";
+        minusButton.style.border="none";
+        minusButton.style.marginLeft ="2px";
+
         newList.appendChild(listContainer)
-        countNum++;
 
         checkbox.type = 'checkbox';
         checkbox.className = 'checkboxList';
@@ -45,22 +52,25 @@ document.addEventListener('DOMContentLoaded', () => {
         inputText.textContent = insertText.value;
 
         insertText.value = '';   //글이 삽입되면 insertText 안에 입력된 내용 비우기
-    }
 
-    const delList = () =>{
-
-
-
+        minusButton.addEventListener("click", removeList)
     }
 
 
+    const removeList = () => {
+        const removeOne = event.target.parentElement;
+        removeOne.remove();
+        countNum--;
+        console.log(countNum)
+    }
 
     plusButton.addEventListener("click", addList);
     insertText.addEventListener("keyup", (event) => {
         const ENTER = 13;
         if(event.keyCode === ENTER) {
             addList();
+            countNum++;
+            console.log(countNum)
         }
     })
-    minusButton.addEventListener("click", removeList);
 });
