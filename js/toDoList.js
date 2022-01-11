@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         if(countNum>=6){
-            alert('더이상 입력하실 수 없습니다.')
+            alert('더이상 입력하실 수 없습니다.');
             return;
         }
         const listContainer = document.createElement("div");
@@ -32,6 +32,8 @@ document.addEventListener('DOMContentLoaded', () => {
         minusButton.style.marginLeft ="2px";
 
         newList.appendChild(listContainer)
+        countNum++;
+        console.log(countNum)
 
         checkbox.type = 'checkbox';
         checkbox.className = 'checkboxList';
@@ -69,8 +71,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const ENTER = 13;
         if(event.keyCode === ENTER) {
             addList();
-            countNum++;
-            console.log(countNum)
         }
     })
 });

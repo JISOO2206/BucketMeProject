@@ -1,5 +1,5 @@
 .contentsUpLoadPageSpace{
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .upLoadBox{
@@ -25,4 +25,13 @@
 
 .contentsExplanation > input:last-child{
     margin-top: 10px;
+}
+
+.btnBox{
+    margin-top: 10px;
+    display: flex;
+}
+
+.contentsUpLoadPageBackBtn{
+    margin-left: 10px;
 }
