@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>마이페이지</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bodyColor">
+<div class="profileModContainer">
+    <div class="centerDiv">
+        <div class="profileActionContainer">
+            <h1>마이 페이지</h1>
+            <div class="InfoModBox">
+                <div class="ImgMod">
+                    <img src="../img/man.png" />
+                </div>
+                <div class="InfoMod">
+                    <input type="text" value="홍길동">
+                    <div class="InfoModLink">
+                        <a>구독킵하기</a>
+                        <a>계정 탈퇴</a>
+                    </div>
+                </div>
+            </div>
+            <div class="gradeModBox">
+                <form action="#">
+                    <input type="text" value="모든 관람등급" disabled>
+                    <input type="button" value="수정하기">
+                </form>
+                <form action="#">
+                    <input type="text" value="멤버십:베이식" disabled>
+                    <input type="button" value="변경하기">
+                </form>
+            </div>
+            <div class="preferModBox">
+                <form action="#">
+                    <h2 class="preferModTitle">취향 설정하기</h2>
+                    <ul class="like-list">
+                        <!-- 반복문을 이용해 테이블의 카테고리 값을 출력 -->
+                        <div class="list-area"><h4 class="like">밝은분위기</h4></div>
+                        <div class="list-area"><h4 class="like">스릴넘치는</h4></div>
+                        <div class="list-area"><h4 class="like" class="like">달달한</h4></div>
+                        <div class="list-area"><h4 class="like">잔잔한</h4></div>
+                        <div class="list-area"><h4 class="like">역사적인</h4></div>
+                        <div class="list-area"><h4 class="like">감동적인</h4></div>
+                        <div class="list-area"><h4 class="like">외계인</h4></div>
+                        <div class="list-area"><h4 class="like">괴물</h4></div>
+                        <div class="list-area"><h4 class="like">귀신</h4></div>
+                        <div class="list-area"><h4 class="like">초자연적인</h4></div>
+                        <div class="list-area"><h4 class="like">시간여행</h4></div>
+                        <div class="list-area"><h4 class="like">실화바탕</h4></div>
+                        <div class="list-area"><h4 class="like">불륜</h4></div>
+                        <div class="list-area"><h4 class="like">복수혈전</h4></div>
+                        <div class="list-area"><h4 class="like">리얼리티</h4></div>
+                    </ul>
+                </form>
+            </div>
+            <div class="myPageBtnBox">
+                <button>저장하기</button>
+                <button>취소</button>
+                <button>프로필 삭제</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+<script src="../js/signup.js"></script>
+</body>
+</html>
