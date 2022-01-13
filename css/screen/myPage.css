@@ -2,7 +2,6 @@
     background-color: rgb(26, 29, 41);
     color: #fff;
 }
-
 .profileModContainer{
     display: flex;
     justify-content: center;
@@ -58,12 +57,17 @@
     text-align: right;
 }
 
+.InfoModLink a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .InfoModLink> a:last-child{
     color: red;
 }
 
 .InfoModLink> a:first-child{
- margin-right: 15px;
+    margin-right: 15px;
 }
 
 .gradeModBox{
@@ -98,6 +102,10 @@
     height: 40px;
     border: none;
     border-radius: 10px;
+}
+
+.gradeModBox form input:last-child:hover{
+    cursor: pointer;
 }
 
 .preferModTitle{
@@ -150,4 +158,8 @@
     height: 40px;
     border: none;
     border-radius: 10px;
+}
+
+.myPageBtnBox button{
+    cursor: pointer;
 }
