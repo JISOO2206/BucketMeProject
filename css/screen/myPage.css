@@ -1,7 +1,4 @@
-.bodyColor{
-    background-color: rgb(26, 29, 41);
-    color: #fff;
-}
+/*마이페이지 css*/
 .profileModContainer{
     display: flex;
     justify-content: center;
@@ -31,8 +28,8 @@
 }
 
 .InfoMod {
-    margin-left: 50px;
-    margin-top: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
     padding-bottom: 15px;
     border-bottom: 1px solid white;
@@ -40,7 +37,7 @@
 
 .InfoMod > input{
     height: 40px;
-    width: 400px;
+    width: 350px;
     border-radius: 15px;
     border: none;
     padding: 0px 20px;
@@ -162,4 +159,8 @@
 
 .myPageBtnBox button{
     cursor: pointer;
+}
+
+.ImgMod input {
+    width: 180px;
 }

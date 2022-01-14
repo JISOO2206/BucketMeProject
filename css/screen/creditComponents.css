@@ -1,0 +1,41 @@
+/*결제 방법 선택 css*/
+.creditContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.contentsContain{
+    border: 1px solid white;
+    margin-top: 140px;
+    height: 600px;
+    width: 1000px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contentsContain h1{
+    margin-bottom: 50px;
+}
+
+.imageContainerBox{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+
+.imageContainer div {
+    margin-bottom: 20px;
+}
+
+.imageContainer a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.imageContainer:last-child{
+    width: 176.88px;
+}
+
+

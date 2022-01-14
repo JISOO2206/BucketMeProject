@@ -1,20 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap");
 
 /*component*/
-@import "components/title-bar.css";
-@import "components/adminSideBox.css";
-@import "components/adminMainBox.css";
 @import "components/userSubProfileBox.css";
 @import "components/pwdEnterPage.css";
 
 /*screen*/
-@import "screen/payInfomationRegisterster.css";
-@import "screen/adminDashBoard.css";
-@import "screen/contentsUpLoad.css";
+@import "screen/myPage.css";
+@import "screen/memberQuit.css";
+@import "screen/creditComponents.css";
+
 
 
 body{
     margin: 0px;
+    color: #fff;
+    background-color: rgb(26, 29, 41);
 }
 
 a {

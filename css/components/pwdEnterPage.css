@@ -1,0 +1,63 @@
+/*시청 제한 및 멤버십 변경 설정 변경 전 page css*/
+.pwdEnterContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.contentRestrictionsContainer{
+    border: 1px solid white;
+    margin-top: 140px;
+    height: 600px;
+    width: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ContentsInfo{
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.pwdInput input{
+    height: 40px;
+    width: 300px;
+    border-radius: 15px;
+    border: none;
+    padding: 0px 20px;
+}
+
+.pwdInput{
+    margin-bottom: 20px;
+}
+
+.pwdFindLink a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.pwdBtn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pwdBtn .btnInsideBox input{
+    background-color: tomato;
+    font-weight: bold;
+    color: white;
+    padding: 0.5rem 1rem;
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.pwdBtn .btnInsideBox input:hover{
+    text-decoration: underline;
+}
+
+
+

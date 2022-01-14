@@ -1,0 +1,84 @@
+/*회원 탈퇴 css*/
+.profileModContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.centerDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.memQuitContainer{
+    border-bottom: 1px solid white;
+    margin-top: 140px;
+    height: 600px;
+    width: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quitInfoContainer{
+    border-top: 1px solid white;
+    padding-top: 55px;
+}
+
+.quitInfoContainer > h3 {
+    margin-top: 0;
+}
+
+.quitInfoBox{
+    text-align: left;
+    list-style-type: none;
+}
+
+.quitInfoBox li{
+    margin-top: 5px;
+}
+
+.quitTitle{
+    margin-bottom: 40px;
+}
+
+.infoEnterForm{
+    margin-top: 30px;
+}
+
+.infoEnter input{
+    height: 40px;
+    width: 300px;
+    border-radius: 15px;
+    border: none;
+    padding: 0px 20px;
+}
+
+.infoEnter:nth-child(2){
+    margin-top: 20px;
+}
+
+.infoEnterBtnBox{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.btnInsideBox{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.infoEnterBtnBox .btnInsideBox button{
+    background-color: tomato;
+    font-weight: bold;
+    color: white;
+    margin: 5px 0px 5px 15px ;
+    padding: 0.5rem 1rem;
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
