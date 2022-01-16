@@ -13,9 +13,12 @@
             <h1>마이 페이지</h1>
             <div class="InfoModBox">
                 <div class="ImgMod">
-                    <img src="../img/man.png" />
-                    <input type="file">
+                    <img id="targetImg" src="../img/man.png" />
                 </div>
+                <form name="signForm" enctype="multipart/form-data">
+                    <input type="file" id="file" name="file" style="display: none" onchange="changeValue(this)">
+                    <input type="hidden" name="targetUrl">
+                </form>
                 <div class="InfoMod">
                     <input type="text" value="홍길동">
                     <div class="InfoModLink">
@@ -66,6 +69,7 @@
     </div>
 </div>
 <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-<script src="../js/loginJS/signup.js"></script>
+<script src="../js/signup.js"></script>
+<script src="../js/myPage.js"></script>
 </body>
 </html>
