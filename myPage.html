@@ -1,3 +1,4 @@
+<!--마이페이지 html입니다-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,10 +14,11 @@
             <h1>마이 페이지</h1>
             <div class="InfoModBox">
                 <div class="ImgMod">
-                    <img id="targetImg" src="../img/man.png" />
+                    <img id="targetImg" src="../img/man.png" class="preview" />
                 </div>
                 <form name="signForm" enctype="multipart/form-data">
-                    <input type="file" id="file" name="file" style="display: none" onchange="changeValue(this)">
+                    <input type="file" id="file" name="file" style="display: none" onchange="changeValue(this)"
+                           accept="image/png, image/jpeg">
                     <input type="hidden" name="targetUrl">
                 </form>
                 <div class="InfoMod">
@@ -69,7 +71,7 @@
     </div>
 </div>
 <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-<script src="../js/signup.js"></script>
-<script src="../js/myPage.js"></script>
+<script src="js/signup.js"></script>
+<script src="js/myPage.js"></script>
 </body>
 </html>

@@ -5,10 +5,9 @@
 }
 
 .contentRestrictionsContainer{
-    border: 1px solid white;
     margin-top: 140px;
     height: 600px;
-    width: 600px;
+    width: 400px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -16,11 +15,15 @@
 }
 
 .ContentsInfo{
-    margin-bottom: 20px;
+    border-top: 1px solid white;
+    padding-top: 40px;
+    margin-bottom: 40px;
     line-height: 25px;
+    font-size: 18px;
 }
 
 .pwdInput input{
+    font-size: 16px;
     height: 40px;
     width: 300px;
     border-radius: 15px;
@@ -29,6 +32,11 @@
 }
 
 .pwdInput{
+    margin-bottom: 40px;
+}
+
+.pwdFindLink{
+    color: #0e90d2;
     margin-bottom: 20px;
 }
 
@@ -41,6 +49,9 @@
     margin-top: 20px;
     display: flex;
     justify-content: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .pwdBtn .btnInsideBox input{

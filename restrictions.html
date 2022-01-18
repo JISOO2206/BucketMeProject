@@ -8,18 +8,42 @@
     <link rel="stylesheet" href="css/styleUser.css" />
 </head>
 <body>
-    <div class="BodyContents">
-        <div class="responAccountContainer">
-            <div class="contentsContainer">
-                <h1>시청 제한</h1>
-                <h2>홍길동 프로필의 관람등급</h2>
-                                <!--b 안에 있는 태그는 radio 변경시 내용이 변경됨-->
-                <p>이 프로필에서는 <b>모든 관람등급</b>의 콘텐츠가 표시됩니다</p>
-                <div>
-                    <div></div>
+<div class="BodyContents">
+    <div class="responAccountContainer">
+        <div class="contentsContainer">
+            <h1>시청 제한</h1>
+            <h2>홍길동 프로필의 관람등급</h2>
+            <!--b 안에 있는 태그는 radio 변경시 내용이 변경됨-->
+            <p>이 프로필에서는
+                <select class="rating">
+                    <option>전체 관람가등급</option>
+                    <option>7+ 등급 이하</option>
+                    <option>12+ 등급 이하</option>
+                    <option>15+ 등급 이하</option>
+                    <option>청불 등급 이하</option>
+                    <option>모든 관람등급</option>
+                </select>
+                의 콘텐츠가 표시됩니다</p>
+            <div>
+                <div></div>
+            </div>
+            <div class="contentsSetting">
+                <h2>홍길동의 콘텐츠 제한 설정</h2>
+                <input type="text" placeholder="콘텐츠 검색" id="insertText">
+                <!-- <button class="plusButton" id="plusList" >추가</button>-->
+                <div class="settingInfo">관람등급에 상관없이 이 프로필에 특정 작품을 표시하지 않습니다.</div>
+                <div class="restrictionContents" id="restrictionBox">
+
                 </div>
+            </div>
+            <div class="settingSaveBtnBox">
+                <button>저장</button>
+                <button>취소</button>
             </div>
         </div>
     </div>
+</div>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/restrictionContents.js"></script>
 </body>
 </html>

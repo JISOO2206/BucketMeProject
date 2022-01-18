@@ -8,7 +8,8 @@
 @import "screen/myPage.css";
 @import "screen/memberQuit.css";
 @import "screen/creditComponents.css";
-
+@import "screen/restrictions.css";
+@import "screen/newCardRegister.css";
 
 
 body{

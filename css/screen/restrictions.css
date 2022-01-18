@@ -1,0 +1,79 @@
+.BodyContents{
+    display: flex;
+    justify-content: center;
+}
+
+.responAccountContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contentsContainer{
+    border-bottom: 1px solid white;
+    margin-top: 140px;
+    height: 600px;
+    width: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contentsSetting input{
+    font-size: 16px;
+    height: 40px;
+    width: 300px;
+    border-radius: 15px;
+    border: none;
+    padding: 0px 20px;
+    margin-bottom: 10px;
+}
+
+.settingInfo{
+    font-size: 12px;
+}
+
+.settingSaveBtnBox{
+    margin-top: 40px;
+}
+
+.settingSaveBtnBox button{
+    background-color: tomato;
+    font-weight: bold;
+    color: white;
+    padding: 0.5rem 1rem;
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.rating{
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    height: 30px;
+    width: 180px;
+    border-radius: 15px;
+    border: none;
+    padding: 0px 20px;
+    margin-bottom: 10px;
+}
+
+.plusButton{
+    background-color: tomato;
+    font-weight: bold;
+    color: white;
+    padding: 0.5rem 1rem;
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.restrictionContents{
+    font-size: 15px;
+}

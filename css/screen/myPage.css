@@ -24,11 +24,15 @@
 
 .InfoModBox{
     display: flex;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.ImgMod{
+    margin-left: 30px;
 }
 
 .InfoMod {
-    margin-left: 10px;
+    margin-left: 50px;
     margin-top: 20px;
     margin-bottom: 10px;
     padding-bottom: 15px;
@@ -45,8 +49,8 @@
 
 .ImgMod > img {
     margin-top: 10px;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
 }
 
 .InfoModLink{
